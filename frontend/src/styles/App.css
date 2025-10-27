@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-content {
+  padding: 20px;
+  margin-top: 10px;
+}
+
+/* Estilos adicionales para el sidebar */
+.nav-link:hover {
+  background-color: #e9ecef !important;
+  color: #212529 !important;
+  transform: translateX(5px);
+}
+
+/* Transiciones suaves para el offcanvas */
+.offcanvas {
+  transition: transform 0.3s ease-in-out;
+}
+
+.offcanvas-backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 0.9rem;
+  }
+}
